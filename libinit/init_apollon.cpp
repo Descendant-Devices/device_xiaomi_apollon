@@ -7,33 +7,39 @@
 #include <libinit_kona.h>
 
 static const variant_info_t apollocn_info = {
-    .prop_key = "ro.boot.hwc",
-    .prop_value = "CN",
+    .hwc_value = "CN",
+    .sku_value = "",
 
     .brand = "Redmi",
     .device = "apollo",
     .marketname = "K30S Ultra",
     .model = "M2007J3SC",
+
+    .nfc = true,
 };
 
 static const variant_info_t apollo_info = {
-    .prop_key = "ro.boot.product.hardware.sku",
-    .prop_value = "std",
+    .hwc_value = "",
+    .sku_value = "std",
 
     .brand = "Xiaomi",
     .device = "apollo",
     .marketname = "Mi 10T",
     .model = "M2007J3SY",
+
+    .nfc = true,
 };
 
 static const variant_info_t apollopro_info = {
-    .prop_key = "ro.boot.product.hardware.sku",
-    .prop_value = "pro",
+    .hwc_value = "",
+    .sku_value = "pro",
 
     .brand = "Xiaomi",
     .device = "apollo",
     .marketname = "Mi 10T Pro",
     .model = "M2007J3SG",
+
+    .nfc = true,
 };
 
 static const std::vector<variant_info_t> variants = {
