@@ -29,3 +29,8 @@ FLUID_BUILD_TYPE := OFFICIAL
 PRODUCT_PRODUCT_PROPERTIES += \
   ro.fluid.maintainer=Ramisky \
   ro.fluid.cpu=SDM865
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="apollo-user 11 RKQ1.200826.002 V12.5.1.0.RJDMIXM release-keys"
+
+BUILD_FINGERPRINT := Xiaomi/apollo_global/apollo:11/RKQ1.200826.002/V12.5.1.0.RJDMIXM:user/release-keys
