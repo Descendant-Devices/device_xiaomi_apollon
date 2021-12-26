@@ -15,6 +15,7 @@ $(call inherit-product, device/xiaomi/apollon/device.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_USES_AOSP_RECOVERY := true
 
 PRODUCT_NAME := aosp_apollon
 PRODUCT_DEVICE := apollon
