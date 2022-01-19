@@ -14,6 +14,8 @@ $(call inherit-product, device/xiaomi/apollon/device.mk)
 # Inherit some common Descendant stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+TARGET_SUPPORTS_QUICK_TAP := true
+
 PRODUCT_NAME := aosp_apollon
 PRODUCT_DEVICE := apollon
 PRODUCT_MANUFACTURER := Xiaomi
