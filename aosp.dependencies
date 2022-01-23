@@ -6,5 +6,10 @@
   {
     "repository": "vendor_xiaomi_apollon",
     "target_path": "vendor/xiaomi/apollon"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "Ramisky/vendor_xiaomi-firmware_apollon",
+    "target_path": "vendor/xiaomi-firmware/apollon"
   }
 ]
